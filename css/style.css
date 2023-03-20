@@ -60,11 +60,11 @@ header nav .left a{
     text-decoration: none;
     margin-right:2rem;
     text-transform:uppercase;
-    transition:all .3s ease;
+    -o-transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
     -ms-transition:all .3s ease;
-    -o-transition:all .3s ease;
+    transition:all .3s ease;
 }
 header nav .left a:hover{
     color:var(--primary);
@@ -142,17 +142,17 @@ section.about .social a{
     justify-content:center;
     width:35px;
     height:35px;
-    border-radius: 50%;
+    -o-border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    border-radius: 50%;
     margin-right:0.6rem;
-    transition: all .3s ease;
+    -o-transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 section.about .social a:hover{
     background:var(--primary);
@@ -193,21 +193,21 @@ section.services .card-wrapper .card{
     position:relative;
     padding-top:5rem;
     text-align: center;
-    transition: all .3s ease;
+    -o-transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 section.services .card-wrapper .card img{
     position: absolute;
     top:-3.5rem;
     left:50%;
-    transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 section.services .card-wrapper .card h2{
     font-weight: 400;
@@ -247,11 +247,11 @@ section.freelancer p{
 section.reviews .slider .slide img{
     width:100px;
     height:100px;
-    border-radius: 50%;
+    -o-border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    border-radius: 50%;
     object-fit:cover;
     margin-bottom:2rem;
 }
@@ -288,11 +288,11 @@ section.reviews .slider-dots button{
     border: none;
     outline:none;
     background:var(--ternary);
-    border-radius: 50px;
+    -o-border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
-    -o-border-radius: 50px;
+    border-radius: 50px;
     cursor: pointer;
 }
 section.reviews .dots li.slick-active button{
@@ -326,17 +326,17 @@ section.work .card-wrapper .card .overlay{
     flex-direction:column;
     color:var(--light);
     opacity:0;
-    transition:all .3s ease;
+    -o-transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
     -ms-transition:all .3s ease;
-    -o-transition:all .3s ease;
+    transition:all .3s ease;
 }
 section.work .card-wrapper .card:hover .overlay{
     opacity:1;
 }
 
-section.work .card-wrapper .card .overlay a{
+section.work .card-wrapper .card .overlay .a{
     color:var(--secondary);
     text-decoration: none;
 }
@@ -498,23 +498,23 @@ footer .copyright{
    height:100%;
    padding:2rem;
    padding-top:5rem;
-   transform: translateX(-100%);
+   -o-transform: translateX(-100%);
    -webkit-transform: translateX(-100%);
    -moz-transform: translateX(-100%);
    -ms-transform: translateX(-100%);
-   -o-transform: translateX(-100%);
-   transition:all .5s ease-in-out;
+   transform: translateX(-100%);
+   -o-transition:all .5s ease-in-out;
    -webkit-transition:all .5s ease-in-out;
    -moz-transition:all .5s ease-in-out;
    -ms-transition:all .5s ease-in-out;
-   -o-transition:all .5s ease-in-out;
+   transition:all .5s ease-in-out;
 }
 .open{
-    transform:translateX(0);
+    -o-transform:translateX(0);
     -webkit-transform:translateX(0);
     -moz-transform:translateX(0);
     -ms-transform:translateX(0);
-    -o-transform:translateX(0);
+    transform:translateX(0);
 }
 .times{
    position:fixed;

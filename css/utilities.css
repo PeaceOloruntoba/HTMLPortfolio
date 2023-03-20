@@ -15,11 +15,11 @@
     outline:none;
     cursor:pointer;
     text-transform: uppercase;
-    transition:all .3s ease;
+    -o-transition:all .3s ease;
+    -ms-transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
-    -ms-transition:all .3s ease;
-    -o-transition:all .3s ease;
+    transition:all .3s ease;
 }
 .btn-primary{
     background:var(--primary);
