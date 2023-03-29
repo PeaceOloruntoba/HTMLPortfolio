@@ -1,2 +1,2 @@
 # HTMLPortfolio
- one of my HTML Portfolios hosted on Github Pages
+ one of my Portfolios hosted on Github Pages
